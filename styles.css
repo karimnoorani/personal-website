@@ -1,0 +1,98 @@
+/* Define the main Navigation block */
+body{
+    background: #E0E0DC;
+}
+.myNav {
+    display: flex;
+    margin-top: 20px;
+    /*justify-content: flex-end;*/
+    height: 50px;
+    line-height: 50px;
+    background-color: #E0E0DC;
+    /*border: 1px solid black;*/
+}
+/* Remove bullets, margin and padding */
+.myNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    /*border: 1px solid black;*/
+}
+.myNav li {
+    /*float: left;*/
+    display: inline;
+    /*border: 1px solid black;*/
+    /* Or you can use display: inline; */
+}
+/* Define the block styling for the links */
+.myNav li a {
+    /*display: inline-block;
+    text-align: center;*/
+    padding: 14px 16px;
+    color: black;
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+.myNav p{
+    display: inline-block;
+    margin-right: 900px;
+    margin-left: none;
+    font-size: x-large;
+    margin-top: 0px;
+    /*margin-left: auto;*/
+}
+
+/* This is optional, however if you want to display the active link differently apply a background to it */
+.myNav li a.active {
+    color: #3786E1;
+}
+
+h2{
+    text-align: center;
+}
+
+#Projects{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Projects img{
+    height: 200px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+#Projects p{
+    margin-top: 10px;
+}
+
+#Project1{
+    width: 300px;
+    text-align: center;
+}
+
+#Project2{
+    width: 300px;
+    text-align: center;
+}
+
+button {
+    background-color: #e7e7e7; 
+    color: black;
+}
+.about{
+    margin: auto;
+    width: 50%;
+}
+.about p{
+    width: 800px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.resume-div{
+    margin: auto;
+    width: 50%;
+}
